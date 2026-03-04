@@ -16,17 +16,17 @@ La implementación correspondiente se encuentra en la carpeta:
 Parte1_CNN
 ```
 
-### 🔧 Configuración del entorno virtual (obligatorio)
+### Configuración del entorno virtual (obligatorio)
 
 Dentro de la carpeta `Parte1_CNN` se debe crear un entorno virtual antes de ejecutar el proyecto.
 
-1️⃣ Crear el entorno virtual:
+1️. Crear el entorno virtual:
 
 ```
 python -m venv venv
 ```
 
-2️⃣ Activarlo según el sistema operativo:
+2️. Activarlo según el sistema operativo:
 
 * **Windows:**
 
@@ -40,7 +40,7 @@ venv\Scripts\activate
 source venv/bin/activate
 ```
 
-3️⃣ Instalar las dependencias:
+3️. Instalar las dependencias:
 
 ```
 pip install -r requirements.txt
