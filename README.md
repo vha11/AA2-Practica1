@@ -46,7 +46,13 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-⚠️ El entorno virtual (`venv/`) no debe subirse al repositorio.
+4️. (Opcional pero recomendado) Registrar el entorno en Jupyter:
+
+```
+python -m ipykernel install --user --name=venv --display-name "Python (venv)"
+```
+
+El entorno virtual (`venv/`) no debe subirse al repositorio.
 Cada persona debe crearlo en su propia computadora.
 
 ---
